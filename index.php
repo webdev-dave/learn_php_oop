@@ -12,9 +12,8 @@
     require_once './Classes/Car.php';
     $car01 = new Car("BMW", "green");
     $car02 = new Car("Volvo", "blue");
-    echo $car01->getCarInfo();
-    echo "<br>";
-    echo $car01->vehicleType;
+    $car01->setColor("red");
+    echo $car01->getColor();
     ?>
 </body>
 
